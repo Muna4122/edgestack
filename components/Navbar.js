@@ -13,7 +13,7 @@ export function Navbar () {
         <main className="bg-gray-100 shadow-gray-300 w-full">
             <div className="h-15 flex justify-between items-center px-5">
                 <h1 className="text-3xl font-bold text-blue-500">Edgestack</h1>
-                <ul className="hiddeen  md: flex gap-8 text-sm font-semibold">
+                <ul className="hidden md: flex gap-8 text-sm font-semibold">
                    <Link href="/"> <li>Home</li></Link>
                     <li>Enroll</li>
                     <li>Student-list</li>
