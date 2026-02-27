@@ -1,8 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "../components/Navbar";
-import { Footer } from "../components/Footer";
-import {SessionProvider} from "next-auth/react"
+import { Footer } from "@/components/Footer";
+import { Navbar } from "@/components/Navbar";
+import  {SessionProvider} from "next-auth/react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Edgestack",
-  description: "Online Registrataion App",
+  description: "Online Registration App",
 };
 
 export default function RootLayout({ children }) {
